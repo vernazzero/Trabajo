@@ -17,7 +17,18 @@ h2 {
 h3 {
 
     margin-bottom: 10px;
+    font-weight: bold;
 
+}
+
+h4 {
+
+    margin-bottom: 15px;
+}
+
+ul {
+
+    list-style: none;
 }
 
 body {
@@ -179,7 +190,7 @@ header .container button {
 
     display: inline-block;
     color: #fff;
-    background-color:#0f8f84 ;
+    background-color:#ff1d6e ;
     border-radius: 10px;
     padding: 5px;
 
@@ -189,7 +200,6 @@ header .container button {
 
     color: #000000c4;
 
-
 }
 
 .container .escuela-secundaria {
@@ -197,6 +207,123 @@ header .container button {
     background-color: rgb(247, 247, 247);
     
 }
+
+                         /* TERCERA SECCION-HABILIDADES */
+
+#habilidades {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+#habilidades .container {
+
+    padding: 50px 100px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+#habilidades .contacto {
+
+    padding: 0px 100px;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 50px;
+
+}
+
+#habilidades .container h3 {
+
+    margin-bottom: 20px;
+}
+
+#habilidades .linea1 {
+
+    width: 450px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-bottom: 10px;
+
+}
+
+#habilidades .linea2 {
+
+    width: 350px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-bottom: 10px;
+
+}
+
+#habilidades .linea3 {
+
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color: #0f8f84;
+    margin-top: 10px ;
+
+}
+
+#habilidades .contacto h3 {
+
+    margin-bottom: 20px;
+
+}
+
+#habilidades ul li {
+
+    margin-bottom: 15px;
+
+}
+
+                         /* CUARTA SECCION-HOBBIE */
+
+#hobbie h2 {
+
+    margin: 0;
+
+}
+
+#hobbie P {
+
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+                          /* FOOTER */
+
+footer {
+
+    height: 80px;
+
+}
+
+footer a {
+
+    color: #ff1d6e ;
+    
+}
+
+footer .container {
+
+    font-size: 30px;
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
 
 
 
