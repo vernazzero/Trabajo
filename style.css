@@ -1,0 +1,98 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Merriweather', serif;
+
+}
+
+                     /* HEADER */
+
+header {
+
+    background-color:#5DC1B9;
+
+}
+
+header .container {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+
+} 
+
+header .container a {
+
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+header .container button {
+
+    font-size: 15px;
+
+    background-color: #ff1d6e;
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+
+}
+
+                          /* HERO */
+             
+#hero {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hero .img-container {
+
+    background-image: url(img/Elias.jpg);
+    height: 180px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+#hero p {
+
+    text-align: center;
+    padding: 0px 50px;
+
+}
+
+#hero button {
+
+    font-size: 15px;
+    background-color: #fff;
+    color: #0f8f84;
+    border-radius: 50px;
+    border: #24a89d solid;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+
+
+
