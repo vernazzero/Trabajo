@@ -75,16 +75,10 @@ i {
 
 }
 
-header a {
+header .container .button {
 
-    display: none;
-
-}
-
-header .container button {
-
+    margin-top: -5px;
     font-size: 15px;
-
     background-color: #ff1d6e;
     color: #fff;
     border-radius: 50px;
@@ -445,6 +439,23 @@ footer .container {
 
         padding: 0px 300px;
 
+    }
+
+}
+
+@media (max-width:768px) {
+
+    header .container a {
+
+        display: none;
+
+    }
+
+    header .container .button {
+
+        display: block;
+        text-decoration: none;
+        
     }
 
 }
