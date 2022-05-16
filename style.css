@@ -37,11 +37,13 @@ h3 {
 h4 {
 
     margin-bottom: 15px;
+
 }
 
 ul {
 
     list-style: none;
+
 }
 
 body {
@@ -70,6 +72,7 @@ i {
 
     margin-top: 10px;
     font-size: 30px;
+
 }
 
 header a {
@@ -91,7 +94,6 @@ header .container button {
     border: none;
     font-weight: bold;
     
-
 }
 
                           /* HERO */
@@ -168,6 +170,7 @@ header .container button {
 #experiencia .container .p2 {
     
     color: #000000c4;
+
 }
 
 .container .web-developer  {
@@ -254,6 +257,7 @@ header .container button {
 #habilidades .container h3 {
 
     margin-bottom: 20px;
+    
 }
 
 #habilidades .linea1 {
@@ -317,18 +321,22 @@ header .container button {
 
 footer {
 
-    height: 80px;
+    height: 100px;
+    margin-top: 50px;
+    background-color:rgb(235, 235, 235) ;
 
 }
 
 footer a {
 
     color: #ff1d6e ;
+    margin-top: 20px;
     
 }
 
 footer .container {
 
+    
     font-size: 30px;
     padding: 0 30%;
     display: flex;
@@ -357,6 +365,11 @@ footer .container {
 
     }
 
+    #hero p {
+
+        padding: 0px 120px;
+    }
+
     #habilidades {
 
         flex-direction: row;
@@ -366,14 +379,72 @@ footer .container {
     #habilidades .contacto {
 
         padding: 50px;
+        padding-top: 40px;
 
     }
 
+    #hobbie p {
+
+        margin-top: 40px;
+        padding: 0px 120px;
+
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    #hero p {
+
+        padding: 0px 150px;
+    }
 
 
+    #habilidades {
 
+        justify-content: space-evenly;
+        
+    }
 
+    #habilidades .contacto {
 
+        padding-top: 40px;
 
+    }
 
-}                          
+    #hobbie {
+
+        padding: 0px 150px;
+
+    }
+
+}
+
+@media (min-width:1440px) {
+
+    header {
+
+        font-size: 20px;
+
+    }
+
+    header .container a {
+
+        font-size: 30px;
+
+    }
+
+    #hero p {
+
+        padding: 0px 300px;
+
+    }
+
+    #hobbie {
+
+        padding: 0px 300px;
+
+    }
+
+}
+
