@@ -46,6 +46,18 @@ ul {
 
 }
 
+p {
+
+    font-size: 18px;
+
+}
+
+#habilidades .contacto li {
+
+    margin-top: -18px;
+    
+}
+
 body {
 
     font-family: 'Merriweather', serif;
@@ -139,7 +151,6 @@ header .container .button {
 
 #experiencia {
 
-    margin-bottom: 80px;
     margin-top: 50px;
     padding: 50px;
 
@@ -182,11 +193,6 @@ header .container .button {
 
 }
 
-.container .web-developer2  {
-
-    background-color: rgb(247, 247, 247);
-    
-}
 
                       /* SEGUNDA SECCION-EDUCACION */
 
@@ -277,7 +283,7 @@ header .container .button {
 
 #habilidades .linea3 {
 
-    width: 100px;
+    width: 30px;
     height: 2px;
     border: 0;
     background-color: #0f8f84;
