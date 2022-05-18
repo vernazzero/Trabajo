@@ -88,6 +88,13 @@ i {
 
 }
 
+header .container a:hover {
+
+    color: #ff1d6e;
+
+
+}
+
 header .container .button {
 
     margin-top: -5px;
@@ -101,6 +108,12 @@ header .container .button {
     border: none;
     font-weight: bold;
     
+}
+
+header .container .button:hover {
+
+    color: #493131;
+
 }
 
                           /* HERO */
@@ -146,6 +159,12 @@ header .container .button {
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
+
+}
+
+#hero .btn-hero:hover {
+
+    background-color: #c3e6e3;
 
 }
 
