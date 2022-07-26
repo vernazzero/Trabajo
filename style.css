@@ -88,6 +88,42 @@ i {
 
 }
 
+.contenedor {
+
+    position: absolute;
+    height: 30vh;
+    width: 425px;
+
+}
+
+.linksMenu {
+
+    text-decoration: none;
+    color: #000000;
+    line-height: 2.3;
+    font-weight: bold;
+
+}
+
+.contenedorMenu {
+
+    position: absolute;
+    padding: 50px 0px;
+    transform: translateY(-250%);
+    transition: transform 0.5s;
+    height: 250px;
+    width: 425px;
+    text-align: center;
+    background-color: #ff1d6e;
+
+}
+
+.menuShow {
+
+    transform: translateY(0);
+
+}
+
 header .container a:hover {
 
     color: #ff1d6e;
